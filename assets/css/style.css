@@ -2329,7 +2329,7 @@ textarea.form-input {
   }
 
   .has-dropdown.active .dropdown-menu {
-    max-height: 500px;
+    max-height: 730px;
     padding: var(--spacing-sm) 0;
   }
 
