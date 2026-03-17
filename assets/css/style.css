@@ -142,7 +142,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
+  font-family: var(--font-secondary);
   font-weight: var(--fw-bold);
   line-height: 1.2;
   color: var(--primary-black);
@@ -577,7 +577,7 @@ section {
 }
 
 .logo-text {
-  font-family: var(--font-heading);
+  font-family: var(--font-secondary);
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
   color: var(--primary-white);
@@ -1349,7 +1349,7 @@ section {
   font-weight: var(--fw-bold);
   color: var(--primary-black);
   margin-bottom: var(--spacing-md);
-  font-family: var(--font-heading);
+  font-family: var(--font-secondary);
 }
 
 .feature-description {
@@ -3161,7 +3161,7 @@ textarea.form-input {
 }
 
 .footer-logo-text {
-  font-family: var(--font-heading);
+  font-family: var(--font-secondary);
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
   color: var(--primary-white);
