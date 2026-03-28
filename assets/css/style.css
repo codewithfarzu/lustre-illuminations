@@ -424,6 +424,54 @@ img {
   height: auto;
 }
 
+/* whatsApp fixed-icon-start ========================================== */
+.whatsapp-fixed {
+  position: fixed;
+  bottom: 90px;
+  left: 30px;
+  z-index: 9999;
+}
+
+.whatsapp-fixed a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 28px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-fixed a:hover {
+  transform: scale(1.1);
+}
+
+.spinner-grow-slow {
+  animation-duration: 1.5s;
+}
+
+.whatsapp-fixed:hover.spinner-grow-slow {
+  animation-play-state: paused;
+}
+
+@media(max-width:576px) {
+  .whatsapp-fixed {
+    bottom: 90px;
+    left: 10px;
+  }
+
+  .whatsapp-fixed a {
+    width: 43px;
+    height: 43px;
+    font-size: 24px;
+  }
+}
+
+/* Whats app End ============================= */
+
 /* ===================================
    SECTIONS
    =================================== */
@@ -1556,11 +1604,11 @@ section {
 }
 
 .breadcrumb3-section {
-  background-image: linear-gradient(rgba(26, 26, 26, 0.4),transparent), url('../images/outdoor-lights/breadcrumb-img.png');
+  background-image: linear-gradient(rgba(26, 26, 26, 0.4), transparent), url('../images/outdoor-lights/breadcrumb-img.png');
 }
 
 .breadcrumb4-section {
-  background-image: linear-gradient(rgba(26, 26, 26, 0.4),transparent), url('../images/pole-lights/pole-light-bg.webp');
+  background-image: linear-gradient(rgba(26, 26, 26, 0.4), transparent), url('../images/pole-lights/pole-light-bg.webp');
 }
 
 .breadcrumb-content {
