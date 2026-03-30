@@ -1,4 +1,28 @@
 // ===================================
+// Brands Swiper Carousel
+// ===================================
+const brandsSwiper = new Swiper('.brands-swiper', {
+    slidesPerView: 6,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: { delay: 3000, disableOnInteraction: false },
+    pagination: {
+        el: '.brands-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.brands-next',
+        prevEl: '.brands-prev',
+    },
+    breakpoints: {
+        0: { slidesPerView: 1 },
+        576: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 5 },
+    }
+});
+
+// ===================================
 // NAVIGATION FUNCTIONALITY
 // ===================================
 
