@@ -1,24 +1,37 @@
 // ===================================
 // Brands Swiper Carousel
 // ===================================
-const brandsSwiper = new Swiper('.brands-swiper', {
-    slidesPerView: 6,
+const brandsSwiper1 = new Swiper('.brands-swiper', {
+    slidesPerView: 4,
     spaceBetween: 24,
     loop: true,
-    autoplay: { delay: 3000, disableOnInteraction: false },
-    pagination: {
-        el: '.brands-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.brands-next',
-        prevEl: '.brands-prev',
-    },
+    autoplay: { delay: 2000, disableOnInteraction: false },
+    pagination: { el: '.brands-pagination', clickable: true },
+    navigation: { nextEl: '.brands-next', prevEl: '.brands-prev' },
     breakpoints: {
         0: { slidesPerView: 1 },
-        576: { slidesPerView: 3 },
-        768: { slidesPerView: 4 },
-        1024: { slidesPerView: 5 },
+        576: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 4 },
+    }
+});
+
+
+/* ======================= */
+
+const brandsSwiper2 = new Swiper('.brands-swiper-2', {
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    dir: 'rtl',
+    autoplay: { delay: 2000, disableOnInteraction: false },
+    pagination: { el: '.brands-pagination', clickable: true },
+    navigation: { nextEl: '.brands-next', prevEl: '.brands-prev' },
+    breakpoints: {
+        0: { slidesPerView: 1 },
+        576: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 4 },
     }
 });
 
