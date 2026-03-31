@@ -1609,7 +1609,7 @@ section {
 }
 
 .brands-pagination {
-  bottom: 10px !important;
+  bottom: -5px !important;
   left: 0;
   width: 100%;
   text-align: center;
@@ -1632,7 +1632,7 @@ section {
 
 /* Swiper 2 - reuse same styles via shared brands-section class */
 .brands-pagination-2 {
-  bottom: 10px !important;
+  bottom: -5px !important;
   left: 0;
   width: 100%;
   text-align: center;
