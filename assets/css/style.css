@@ -1655,6 +1655,7 @@ section {
 
 .client-heading h2 {
   color: var(--primary-red);
+  font-size: 20px;
 }
 
 .brands-swiper,
