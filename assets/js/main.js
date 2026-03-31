@@ -26,7 +26,7 @@ const brandsSwiper2 = new Swiper('.brands-swiper-2', {
     dir: 'rtl',
     autoplay: { delay: 2000, disableOnInteraction: false },
     pagination: { el: '.brands-pagination', clickable: true },
-    navigation: { nextEl: '.brands-next', prevEl: '.brands-prev' },
+    navigation: { nextEl: '.brands-next-2', prevEl: '.brands-prev-2' },
     breakpoints: {
         0: { slidesPerView: 1 },
         576: { slidesPerView: 2 },
